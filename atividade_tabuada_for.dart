@@ -1,8 +1,8 @@
 void main() {
-  int tabuada = 2;
+  int tab = 2;
 
   for(int i = 1; i <=10; i++) {
-    int resultado = tabuada * i;
-    print('$tabuada x $i = $resultado');
+    int result = tab * i;
+    print('$tab x $i = $result');
   }
 }
