@@ -23,7 +23,7 @@ class ContaBancaria {
     if(saldo >= valor){
       saldo -= valor;
     }else{
-      print("O saldo é insuficiente para ralizar o saque");
+      print("O valor solicitado é insuficiente para ralizar o saque");
     }
   }
 
